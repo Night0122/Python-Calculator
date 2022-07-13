@@ -46,6 +46,6 @@ def Calculator():
     
     Check()
 
-    input("Thank you for using this calculator, type anything and hit enter to close the program: ")
+    input("Hit Enter to close the program")
 
 Calculator()
