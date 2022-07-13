@@ -1,6 +1,6 @@
 def Calculator():
 
-    input = input("Choose out of these 4 operations, Add, Subtract, Multiply, Divide: ")
+    i = input("Choose out of these 4 operations, Add, Subtract, Multiply, Divide: ")
     
     def Adder():
         x = input("First Number: ")
@@ -35,13 +35,13 @@ def Calculator():
         print("Your number is " + str(xy))
 
     def Check():
-        if input == "Add":
+        if i == "Add":
             Adder()
-        if input == "Subtract":
+        if i == "Subtract":
             Subtracter()
-        if input == "Multiply":
+        if i == "Multiply":
             Multiplier()
-        if input == "Divide":
+        if i == "Divide":
             Divider()
     
     Check()
