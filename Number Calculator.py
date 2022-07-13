@@ -1,3 +1,5 @@
+print("Numbers with decimals will not be accepted in input, but will be in output, so don't use them in input.")
+
 def Calculator():
 
     i = input("Choose out of these 4 operations, Add, Subtract, Multiply, Divide: ")
